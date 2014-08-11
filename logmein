@@ -1,0 +1,3 @@
+cd d:\logmein
+wait-event -sourceIdentifier "ProcessStarted" -timeout 90
+cmd msiexec /i LogMeIn.msi /quiet DEPLOYID=01_atktybya4jx7zop8zj6d5ooircoc3ccwril7e INSTALLMETHOD=5 FQDNDESC=0''
